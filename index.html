@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="snek.css" />
+  </head>
+  <body>
+    <h1 id="main-title"> SNAKE </h1>
+    <p id="highscore-display"> </p>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10" id="snek-space">
+          <canvas class="canvas" id="snake-canvas" width="953" height="478" style="border: 1px solid"></canvas>
+          <div id="snake-head"></div>
+          <div id="death-message">U DED FOOL.<br>press 'R' to restart</div>
+          <div id="snake-food"></div>
+        </div>
+        <div class="col-lg-1"></div>
+      </div>
+    </div>
+    <script src="snek.js"></script>
+  </body>
+<html>
